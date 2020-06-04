@@ -44,6 +44,8 @@ MyOtherOtherProject.ps1 | ConvertTo-Json
 #> 
 Param(
     [switch]$Debug # Would provide additional information if this were a real script.
+    ,
+    [switch]$Other
 )
 
 Get-Date
